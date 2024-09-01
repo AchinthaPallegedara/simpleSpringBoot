@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import com.company.empmgmtsystem.model.Users;
 import com.company.empmgmtsystem.repository.UserRepository;
 
+
+
 @Service
 public class UserService {
 
@@ -38,4 +40,5 @@ public class UserService {
             return "fail";
         }
     }
+   
 }
